@@ -1,0 +1,15 @@
+.tours {
+  width: 90%;
+  border: none;
+  background-color: rgb(247, 223, 227);
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  justify-self: flex-start;
+  flex-wrap: wrap;
+  border-radius: 2%;
+}
+
+.tours__container > h1 {
+  text-align: center;
+}

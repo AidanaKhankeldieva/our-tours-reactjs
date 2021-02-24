@@ -1,0 +1,42 @@
+.singletour {
+  width: 350px;
+  height: fit-content;
+  border: 1px solid rgb(197, 180, 180);
+  box-shadow: 3px 3px 10px 1px rgb(243, 240, 240);
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.singletour > img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.readmore {
+  color: #0586d1;
+  font-weight: bold;
+}
+
+.container > button {
+  height: 40px;
+  background-color: rgb(56, 54, 54);
+  border-radius: 5px;
+  color: white;
+  margin-left: 35%;
+  margin-bottom: 10px;
+}
